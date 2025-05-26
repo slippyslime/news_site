@@ -21,7 +21,7 @@ pip install -r requirements.txt
 cd core
 python manage.py migrate
 ```
-5) Запустите сервер и перейдите следуйте инструкциям в консоли
+5) Запустите сервер и следуйте инструкциям в консоли
 ```
 python manage.py runserver
 ```
