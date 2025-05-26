@@ -1,0 +1,12 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Обо мне{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>О нас</h1>
+    <p>А если быть точнее, то обо мне.</p>
+    <p>Юзернейм в сети: slippyslime. Юзернейм в жизни: Владислав. Студент группы 433, факультет ФМФ.</p>
+    <a href="{% url 'contacts' %}" class="btn btn-danger">Связь со мной</a>
+</div>
+{% endblock %}
